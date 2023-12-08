@@ -1,0 +1,30 @@
+Maze Runner Key Points:
+1. Game Assets
+-> Player
+-> Maze Walls
+-> Spikes
+-> Moving Enemies
+
+2. Game Scenes
+-> Game Poster
+-> Menu
+-> Level 1
+-> Level 2
+-> Level 3
+-> Game Over
+-> Game completed
+
+3. Scripts
+-> Player movement
+-> Enemy movement
+-> Spike interaction
+-> Timer
+-> Scene Change
+
+4. Game Algorithm
+-> Players start the game in a maze
+-> Can go in any of the direction
+-> Doors for different levels
+-> Game ends by going to the exit sign
+-> Final screen shows the time taken to complete
+-> If touched the spikes or enemies, game over
