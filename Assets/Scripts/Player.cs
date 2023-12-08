@@ -18,8 +18,8 @@ public class Player : MonoBehaviour
 
     private SpriteRenderer sr;
 
-    //private Animator anim;
-    //private string WALK_ANIMATION = "Player_move";
+    private Animator anim;
+    private string WALK_ANIMATION = "Walk";
 
 
 
@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     {
 
         myBody = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
 
         sr = GetComponent<SpriteRenderer>();
 
@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMoveKeyboard();
-        //AnimatePlayer();
+        AnimatePlayer();
         
 
     }
@@ -76,27 +76,27 @@ public class Player : MonoBehaviour
 
     }
 
-    //void AnimatePlayer()
-    //{
+    void AnimatePlayer()
+    {
 
-    //    // we are going to the right side
-    //    if (movementX > 0)
-    //    {
-    //        anim.SetBool(WALK_ANIMATION, true);
-    //        sr.flipX = false;
-    //    }
-    //    else if (movementX < 0)
-    //    {
-    //        // we are going to the left side
-    //        anim.SetBool(WALK_ANIMATION, true);
-    //        sr.flipX = true;
-    //    }
-    //    else
-    //    {
-    //        anim.SetBool(WALK_ANIMATION, false);
-    //    }
+        // we are going to the right side
+        if (movementX > 0)
+        {
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = false;
+        }
+        else if (movementX < 0)
+        {
+            // we are going to the left side
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = true;
+        }
+        else
+        {
+            anim.SetBool(WALK_ANIMATION, false);
+        }
 
-    //}
+    }
 
     
 
