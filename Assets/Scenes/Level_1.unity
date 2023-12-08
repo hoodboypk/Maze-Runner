@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 86450367}
   m_Layer: 0
   m_Name: GiantBeetle_0
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 138269434}
   m_Layer: 0
   m_Name: Muzzleflash3 (16)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1872,7 +1872,7 @@ GameObject:
   - component: {fileID: 244041322}
   m_Layer: 0
   m_Name: Muzzleflash3 (4)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2005,7 +2005,7 @@ GameObject:
   - component: {fileID: 265219276}
   m_Layer: 0
   m_Name: Muzzleflash3 (21)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3498,7 +3498,7 @@ GameObject:
   - component: {fileID: 505595514}
   m_Layer: 0
   m_Name: Muzzleflash3 (6)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3927,7 +3927,7 @@ GameObject:
   - component: {fileID: 534907314}
   m_Layer: 0
   m_Name: Muzzleflash3 (18)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4388,7 +4388,7 @@ GameObject:
   - component: {fileID: 548583575}
   m_Layer: 0
   m_Name: Muzzleflash3 (11)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5806,7 +5806,7 @@ GameObject:
   - component: {fileID: 662679257}
   m_Layer: 0
   m_Name: Muzzleflash3 (22)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6691,9 +6691,10 @@ GameObject:
   - component: {fileID: 705243623}
   - component: {fileID: 705243625}
   - component: {fileID: 705243624}
+  - component: {fileID: 705243626}
   m_Layer: 0
   m_Name: Beetle_0 (3)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6775,7 +6776,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6812,6 +6813,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &705243626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705243621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Wizard
 --- !u!1 &713760099
 GameObject:
   m_ObjectHideFlags: 0
@@ -8195,7 +8209,7 @@ GameObject:
   - component: {fileID: 1025728736}
   m_Layer: 0
   m_Name: Muzzleflash3 (13)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8523,7 +8537,7 @@ GameObject:
   - component: {fileID: 1069197204}
   m_Layer: 0
   m_Name: SpikyBall
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8656,7 +8670,7 @@ GameObject:
   - component: {fileID: 1072785522}
   m_Layer: 0
   m_Name: Muzzleflash3 (1)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8922,7 +8936,7 @@ GameObject:
   - component: {fileID: 1160840900}
   m_Layer: 0
   m_Name: Muzzleflash3 (19)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9055,7 +9069,7 @@ GameObject:
   - component: {fileID: 1165478466}
   m_Layer: 0
   m_Name: Muzzleflash3 (15)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9573,7 +9587,7 @@ GameObject:
   - component: {fileID: 1255607378}
   m_Layer: 0
   m_Name: Muzzleflash3 (14)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9706,7 +9720,7 @@ GameObject:
   - component: {fileID: 1266720339}
   m_Layer: 0
   m_Name: SpikyBall (2)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10761,7 +10775,7 @@ GameObject:
   - component: {fileID: 1375736658}
   m_Layer: 0
   m_Name: Muzzleflash3 (8)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10894,7 +10908,7 @@ GameObject:
   - component: {fileID: 1383427516}
   m_Layer: 0
   m_Name: Muzzleflash3 (10)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12397,7 +12411,7 @@ GameObject:
   - component: {fileID: 1474405254}
   m_Layer: 0
   m_Name: GothicEnemy01_0
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12779,7 +12793,7 @@ GameObject:
   - component: {fileID: 1542436839}
   m_Layer: 0
   m_Name: Muzzleflash3 (12)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12912,7 +12926,7 @@ GameObject:
   - component: {fileID: 1556298974}
   m_Layer: 0
   m_Name: Muzzleflash3 (5)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13577,7 +13591,7 @@ GameObject:
   - component: {fileID: 1650037985}
   m_Layer: 0
   m_Name: Muzzleflash3 (23)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14304,7 +14318,7 @@ GameObject:
   - component: {fileID: 1696460045}
   m_Layer: 0
   m_Name: SpikyBall (1)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14437,7 +14451,7 @@ GameObject:
   - component: {fileID: 1706316013}
   m_Layer: 0
   m_Name: Beetle_0 (2)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14920,7 +14934,7 @@ GameObject:
   - component: {fileID: 1719822335}
   m_Layer: 0
   m_Name: Beetle_0
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15053,7 +15067,7 @@ GameObject:
   - component: {fileID: 1732470662}
   m_Layer: 0
   m_Name: Muzzleflash3 (7)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15186,7 +15200,7 @@ GameObject:
   - component: {fileID: 1739720257}
   m_Layer: 0
   m_Name: Muzzleflash3 (17)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15319,7 +15333,7 @@ GameObject:
   - component: {fileID: 1748550006}
   m_Layer: 0
   m_Name: GothicEnemy03_0
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16002,7 +16016,7 @@ GameObject:
   - component: {fileID: 1801441071}
   m_Layer: 0
   m_Name: SpikyBall (3)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16135,7 +16149,7 @@ GameObject:
   - component: {fileID: 1801490458}
   m_Layer: 0
   m_Name: Muzzleflash3 (20)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16388,7 +16402,7 @@ GameObject:
   - component: {fileID: 1867224302}
   m_Layer: 0
   m_Name: Beetle_0 (1)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16521,7 +16535,7 @@ GameObject:
   - component: {fileID: 1872312587}
   m_Layer: 0
   m_Name: Muzzleflash3
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16654,7 +16668,7 @@ GameObject:
   - component: {fileID: 1913182029}
   m_Layer: 0
   m_Name: Muzzleflash3 (3)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16787,7 +16801,7 @@ GameObject:
   - component: {fileID: 1962334885}
   m_Layer: 0
   m_Name: Muzzleflash3 (9)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16920,7 +16934,7 @@ GameObject:
   - component: {fileID: 1970415363}
   m_Layer: 0
   m_Name: Muzzleflash3 (24)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17940,7 +17954,7 @@ GameObject:
   - component: {fileID: 2056369669}
   m_Layer: 0
   m_Name: Muzzleflash3 (2)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

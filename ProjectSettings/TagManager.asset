@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wizard
+  - Trap
   layers:
   - Default
   - TransparentFX

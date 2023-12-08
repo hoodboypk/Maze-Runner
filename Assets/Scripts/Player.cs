@@ -52,26 +52,14 @@ public class Player : MonoBehaviour
         PlayerMoveKeyboard();
         HandleVerticalMovement();
         AnimatePlayer();
-
-
-
     }
 
-    
-
-    
-
-    
     void PlayerMoveKeyboard()
     {
 
-        
-
         movementX = Input.GetAxisRaw("Horizontal");
 
-        transform.position += new Vector3(movementX, 0f, 0f) * moveForce * Time.deltaTime;
-
-        
+        myBody.velocity = new Vector2(movementX * moveForce, myBody.velocity.y);
 
     }
 
@@ -84,7 +72,7 @@ public class Player : MonoBehaviour
         Vector3 verticalMovement = new Vector3(0f, verticalInput, 0f).normalized;
 
         // Move the player vertically
-        transform.Translate(verticalMovement * verticalSpeed * Time.deltaTime);
+        myBody.velocity = new Vector2(myBody.velocity.x, verticalInput * verticalSpeed);
     }
 
     void AnimatePlayer()
