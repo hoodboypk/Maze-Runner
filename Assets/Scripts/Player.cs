@@ -6,10 +6,9 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField]
-    private float speed = 10f;
+    private float moveForce = 10f;
 
-    //[SerializeField]
-    //private float jumpForce = 11f;
+   
     public Rigidbody2D rb;
     private float movementX;
     private float movementY;
@@ -19,11 +18,11 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
 
     private Animator anim;
-    private string WALK_ANIMATION = "Walk";
+    private string WALK_ANIMATION = "Go";
 
 
 
-    
+
 
     private void Awake()
     {
@@ -46,33 +45,22 @@ public class Player : MonoBehaviour
     {
         PlayerMoveKeyboard();
         AnimatePlayer();
-        
+
 
     }
 
-    //private void FixedUpdate()
-    //{
-    //    PlayerJump();
-    //}
+    
 
     void PlayerMoveKeyboard()
     {
 
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        movementX = Input.GetAxisRaw("Horizontal");
 
-        // Calculate the movement direction
-        Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput).normalized;
+        transform.position += new Vector3(movementX, 0f, 0f) * moveForce * Time.deltaTime;
 
-        // Move the player
-        transform.Translate(movement * speed * Time.deltaTime);
+        movementY = Input.GetAxisRaw("Vertical");
 
-        // Optional: Rotate the player based on the movement direction
-        if (movement != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, 500f * Time.deltaTime);
-        }
+        transform.position += new Vector3(movementY, 0f, 0f) * moveForce * Time.deltaTime;
 
     }
 
@@ -91,6 +79,17 @@ public class Player : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, true);
             sr.flipX = true;
         }
+        if (movementY > 0)
+        {
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipY = false;
+        }
+        else if (movementY < 0)
+        {
+            // we are going to the left side
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipY = false;
+        }
         else
         {
             anim.SetBool(WALK_ANIMATION, false);
@@ -98,9 +97,9 @@ public class Player : MonoBehaviour
 
     }
 
-    
 
-    
+
+
 } // class
 
 
