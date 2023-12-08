@@ -10,6 +10,9 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private float minX, maxX;
 
+    [SerializeField]
+    private float minY, maxY;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,8 @@ public class CameraFollow : MonoBehaviour
             return;
 
         tempPos = transform.position;
-        tempPos.x = Mathf.Clamp(player.position.x, minX, maxX); // Use Mathf.Clamp
+        tempPos.x = Mathf.Clamp(player.position.x, minX, maxX);
+        tempPos.y = Mathf.Clamp(player.position.y, minY, maxY);
 
         transform.position = tempPos;
     }
