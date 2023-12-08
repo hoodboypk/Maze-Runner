@@ -7,11 +7,14 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private float moveForce = 10f;
+    public float verticalSpeed = 8f;
 
-   
+
     public Rigidbody2D rb;
     private float movementX;
     private float movementY;
+    private float verticalInput;
+    
 
     private Rigidbody2D myBody;
 
@@ -19,6 +22,8 @@ public class Player : MonoBehaviour
 
     private Animator anim;
     private string WALK_ANIMATION = "Go";
+    private string MOVE_ANIMATION = "Move";
+
 
 
 
@@ -43,25 +48,43 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         PlayerMoveKeyboard();
+        HandleVerticalMovement();
         AnimatePlayer();
+
 
 
     }
 
     
 
+    
+
+    
     void PlayerMoveKeyboard()
     {
+
+        
 
         movementX = Input.GetAxisRaw("Horizontal");
 
         transform.position += new Vector3(movementX, 0f, 0f) * moveForce * Time.deltaTime;
 
-        movementY = Input.GetAxisRaw("Vertical");
+        
 
-        transform.position += new Vector3(movementY, 0f, 0f) * moveForce * Time.deltaTime;
+    }
 
+    void HandleVerticalMovement()
+    {
+        // Get input from the vertical axis (up and down keys or W and S keys)
+        float verticalInput = Input.GetAxis("Vertical");
+
+        // Calculate the movement in the vertical direction
+        Vector3 verticalMovement = new Vector3(0f, verticalInput, 0f).normalized;
+
+        // Move the player vertically
+        transform.Translate(verticalMovement * verticalSpeed * Time.deltaTime);
     }
 
     void AnimatePlayer()
@@ -79,15 +102,15 @@ public class Player : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, true);
             sr.flipX = true;
         }
-        if (movementY > 0)
+        if (Input.GetKey("up"))
         {
-            anim.SetBool(WALK_ANIMATION, true);
+            anim.SetBool(MOVE_ANIMATION, true);
             sr.flipY = false;
         }
-        else if (movementY < 0)
+        else if (Input.GetKey("down"))
         {
             // we are going to the left side
-            anim.SetBool(WALK_ANIMATION, true);
+            anim.SetBool(MOVE_ANIMATION, false);
             sr.flipY = false;
         }
         else
