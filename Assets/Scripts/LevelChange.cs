@@ -18,11 +18,15 @@ public class LevelChange : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Wizard"))
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadSceneAsync(1);
+        }
+        else if (other.CompareTag("Door"))
+        {
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }

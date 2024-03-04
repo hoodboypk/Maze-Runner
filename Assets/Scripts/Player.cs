@@ -76,14 +76,7 @@ public class Player : MonoBehaviour
         myBody.velocity = new Vector2(myBody.velocity.x, verticalInput * verticalSpeed);
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Trap")
-        {
-            Debug.Log("Ho gaya!");
-            SceneManager.LoadScene("GameOver");
-        }
-    }
+   
     void AnimatePlayer()
     {
 
