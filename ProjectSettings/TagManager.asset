@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wizard
   - Trap
+  - Door
   layers:
   - Default
   - TransparentFX

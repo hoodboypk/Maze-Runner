@@ -516,8 +516,8 @@ GameObject:
   m_Component:
   - component: {fileID: 86450365}
   - component: {fileID: 86450366}
-  - component: {fileID: 86450368}
   - component: {fileID: 86450367}
+  - component: {fileID: 86450369}
   m_Layer: 0
   m_Name: GiantBeetle_0
   m_TagString: Trap
@@ -602,7 +602,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -618,27 +618,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.9, y: 5.45}
   m_EdgeRadius: 0
---- !u!50 &86450368
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &86450369
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86450364}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &106273154
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,8 +857,8 @@ GameObject:
   m_Component:
   - component: {fileID: 138269432}
   - component: {fileID: 138269433}
-  - component: {fileID: 138269435}
   - component: {fileID: 138269434}
+  - component: {fileID: 138269436}
   m_Layer: 0
   m_Name: Muzzleflash3 (16)
   m_TagString: Trap
@@ -952,7 +943,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -968,27 +959,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &138269435
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &138269436
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138269431}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &162346266
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,8 +1850,8 @@ GameObject:
   m_Component:
   - component: {fileID: 244041320}
   - component: {fileID: 244041321}
-  - component: {fileID: 244041323}
   - component: {fileID: 244041322}
+  - component: {fileID: 244041324}
   m_Layer: 0
   m_Name: Muzzleflash3 (4)
   m_TagString: Trap
@@ -1954,7 +1936,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1970,27 +1952,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &244041323
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &244041324
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244041319}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &265219273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,8 +1974,8 @@ GameObject:
   m_Component:
   - component: {fileID: 265219274}
   - component: {fileID: 265219275}
-  - component: {fileID: 265219277}
   - component: {fileID: 265219276}
+  - component: {fileID: 265219278}
   m_Layer: 0
   m_Name: Muzzleflash3 (21)
   m_TagString: Trap
@@ -2087,7 +2060,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2103,27 +2076,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &265219277
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &265219278
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265219273}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &268149033
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,8 +3458,8 @@ GameObject:
   m_Component:
   - component: {fileID: 505595512}
   - component: {fileID: 505595513}
-  - component: {fileID: 505595515}
   - component: {fileID: 505595514}
+  - component: {fileID: 505595516}
   m_Layer: 0
   m_Name: Muzzleflash3 (6)
   m_TagString: Trap
@@ -3580,7 +3544,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3596,27 +3560,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &505595515
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &505595516
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505595511}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,8 +3878,8 @@ GameObject:
   m_Component:
   - component: {fileID: 534907312}
   - component: {fileID: 534907313}
-  - component: {fileID: 534907315}
   - component: {fileID: 534907314}
+  - component: {fileID: 534907316}
   m_Layer: 0
   m_Name: Muzzleflash3 (18)
   m_TagString: Trap
@@ -4009,7 +3964,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4025,27 +3980,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &534907315
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &534907316
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534907311}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &536410971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,8 +4330,8 @@ GameObject:
   m_Component:
   - component: {fileID: 548583573}
   - component: {fileID: 548583574}
-  - component: {fileID: 548583576}
   - component: {fileID: 548583575}
+  - component: {fileID: 548583577}
   m_Layer: 0
   m_Name: Muzzleflash3 (11)
   m_TagString: Trap
@@ -4470,7 +4416,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4486,27 +4432,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &548583576
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &548583577
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 548583572}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &559132794
 GameObject:
   m_ObjectHideFlags: 0
@@ -5559,7 +5496,7 @@ GameObject:
   - component: {fileID: 620787765}
   - component: {fileID: 620787768}
   - component: {fileID: 620787767}
-  - component: {fileID: 620787766}
+  - component: {fileID: 620787769}
   m_Layer: 0
   m_Name: DoorUp_NoGround
   m_TagString: Untagged
@@ -5582,27 +5519,6 @@ Transform:
   m_Father: {fileID: 1530851847}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &620787766
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620787764}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!61 &620787767
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5613,7 +5529,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.52784085}
@@ -5669,7 +5585,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ed301da1d8cd303439a7bc579fad3f29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5681,6 +5597,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &620787769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620787764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6219f54290f62384f8634a4b77303d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &639075931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,8 +5730,8 @@ GameObject:
   m_Component:
   - component: {fileID: 662679255}
   - component: {fileID: 662679256}
-  - component: {fileID: 662679258}
   - component: {fileID: 662679257}
+  - component: {fileID: 662679259}
   m_Layer: 0
   m_Name: Muzzleflash3 (22)
   m_TagString: Trap
@@ -5888,7 +5816,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5904,27 +5832,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &662679258
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &662679259
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662679254}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &663849242
 GameObject:
   m_ObjectHideFlags: 0
@@ -6689,7 +6608,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705243622}
   - component: {fileID: 705243623}
-  - component: {fileID: 705243625}
   - component: {fileID: 705243624}
   - component: {fileID: 705243626}
   m_Layer: 0
@@ -6792,27 +6710,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.3333333, y: 3.1333334}
   m_EdgeRadius: 0
---- !u!50 &705243625
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705243621}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!114 &705243626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6820,12 +6717,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705243621}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTag: Wizard
 --- !u!1 &713760099
 GameObject:
   m_ObjectHideFlags: 0
@@ -8205,8 +8101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1025728734}
   - component: {fileID: 1025728735}
-  - component: {fileID: 1025728737}
   - component: {fileID: 1025728736}
+  - component: {fileID: 1025728738}
   m_Layer: 0
   m_Name: Muzzleflash3 (13)
   m_TagString: Trap
@@ -8291,7 +8187,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8307,27 +8203,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1025728737
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1025728738
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025728733}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1029628688
 GameObject:
   m_ObjectHideFlags: 0
@@ -8533,8 +8420,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1069197202}
   - component: {fileID: 1069197203}
-  - component: {fileID: 1069197205}
   - component: {fileID: 1069197204}
+  - component: {fileID: 1069197206}
   m_Layer: 0
   m_Name: SpikyBall
   m_TagString: Trap
@@ -8619,7 +8506,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8635,27 +8522,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1069197205
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1069197206
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069197201}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1072785519
 GameObject:
   m_ObjectHideFlags: 0
@@ -8666,8 +8544,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1072785520}
   - component: {fileID: 1072785521}
-  - component: {fileID: 1072785523}
   - component: {fileID: 1072785522}
+  - component: {fileID: 1072785524}
   m_Layer: 0
   m_Name: Muzzleflash3 (1)
   m_TagString: Trap
@@ -8752,7 +8630,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8768,27 +8646,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1072785523
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1072785524
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072785519}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105287947
 GameObject:
   m_ObjectHideFlags: 0
@@ -8932,8 +8801,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1160840898}
   - component: {fileID: 1160840899}
-  - component: {fileID: 1160840901}
   - component: {fileID: 1160840900}
+  - component: {fileID: 1160840902}
   m_Layer: 0
   m_Name: Muzzleflash3 (19)
   m_TagString: Trap
@@ -9018,7 +8887,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9034,27 +8903,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1160840901
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1160840902
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160840897}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1165478463
 GameObject:
   m_ObjectHideFlags: 0
@@ -9065,8 +8925,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1165478464}
   - component: {fileID: 1165478465}
-  - component: {fileID: 1165478467}
   - component: {fileID: 1165478466}
+  - component: {fileID: 1165478468}
   m_Layer: 0
   m_Name: Muzzleflash3 (15)
   m_TagString: Trap
@@ -9151,7 +9011,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9167,27 +9027,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1165478467
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1165478468
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165478463}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1190679183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9583,8 +9434,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1255607376}
   - component: {fileID: 1255607377}
-  - component: {fileID: 1255607379}
   - component: {fileID: 1255607378}
+  - component: {fileID: 1255607380}
   m_Layer: 0
   m_Name: Muzzleflash3 (14)
   m_TagString: Trap
@@ -9669,7 +9520,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9685,27 +9536,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1255607379
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1255607380
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255607375}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1266720336
 GameObject:
   m_ObjectHideFlags: 0
@@ -9716,8 +9558,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1266720337}
   - component: {fileID: 1266720338}
-  - component: {fileID: 1266720340}
   - component: {fileID: 1266720339}
+  - component: {fileID: 1266720341}
   m_Layer: 0
   m_Name: SpikyBall (2)
   m_TagString: Trap
@@ -9802,7 +9644,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9818,27 +9660,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1266720340
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1266720341
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266720336}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1290380536
 GameObject:
   m_ObjectHideFlags: 0
@@ -10771,8 +10604,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1375736656}
   - component: {fileID: 1375736657}
-  - component: {fileID: 1375736659}
   - component: {fileID: 1375736658}
+  - component: {fileID: 1375736660}
   m_Layer: 0
   m_Name: Muzzleflash3 (8)
   m_TagString: Trap
@@ -10857,7 +10690,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10873,27 +10706,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1375736659
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1375736660
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375736655}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383427513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10904,8 +10728,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1383427514}
   - component: {fileID: 1383427515}
-  - component: {fileID: 1383427517}
   - component: {fileID: 1383427516}
+  - component: {fileID: 1383427518}
   m_Layer: 0
   m_Name: Muzzleflash3 (10)
   m_TagString: Trap
@@ -10990,7 +10814,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11006,27 +10830,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1383427517
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1383427518
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383427513}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1392214232
 GameObject:
   m_ObjectHideFlags: 0
@@ -12407,8 +12222,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1474405252}
   - component: {fileID: 1474405253}
-  - component: {fileID: 1474405255}
   - component: {fileID: 1474405254}
+  - component: {fileID: 1474405256}
   m_Layer: 0
   m_Name: GothicEnemy01_0
   m_TagString: Trap
@@ -12493,7 +12308,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.75}
@@ -12509,27 +12324,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1474405255
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1474405256
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474405251}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1480830420
 GameObject:
   m_ObjectHideFlags: 0
@@ -12789,8 +12595,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1542436837}
   - component: {fileID: 1542436838}
-  - component: {fileID: 1542436840}
   - component: {fileID: 1542436839}
+  - component: {fileID: 1542436841}
   m_Layer: 0
   m_Name: Muzzleflash3 (12)
   m_TagString: Trap
@@ -12875,7 +12681,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12891,27 +12697,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1542436840
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1542436841
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542436836}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1556298971
 GameObject:
   m_ObjectHideFlags: 0
@@ -12922,8 +12719,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1556298972}
   - component: {fileID: 1556298973}
-  - component: {fileID: 1556298975}
   - component: {fileID: 1556298974}
+  - component: {fileID: 1556298976}
   m_Layer: 0
   m_Name: Muzzleflash3 (5)
   m_TagString: Trap
@@ -13008,7 +12805,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13024,27 +12821,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1556298975
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1556298976
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556298971}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1599507955
 GameObject:
   m_ObjectHideFlags: 0
@@ -13587,8 +13375,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1650037983}
   - component: {fileID: 1650037984}
-  - component: {fileID: 1650037986}
   - component: {fileID: 1650037985}
+  - component: {fileID: 1650037987}
   m_Layer: 0
   m_Name: Muzzleflash3 (23)
   m_TagString: Trap
@@ -13673,7 +13461,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13689,27 +13477,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1650037986
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1650037987
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650037982}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1660835921
 GameObject:
   m_ObjectHideFlags: 0
@@ -14314,8 +14093,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1696460043}
   - component: {fileID: 1696460044}
-  - component: {fileID: 1696460046}
   - component: {fileID: 1696460045}
+  - component: {fileID: 1696460047}
   m_Layer: 0
   m_Name: SpikyBall (1)
   m_TagString: Trap
@@ -14400,7 +14179,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14416,27 +14195,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1696460046
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1696460047
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696460042}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1706316010
 GameObject:
   m_ObjectHideFlags: 0
@@ -14447,8 +14217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1706316011}
   - component: {fileID: 1706316012}
-  - component: {fileID: 1706316014}
   - component: {fileID: 1706316013}
+  - component: {fileID: 1706316015}
   m_Layer: 0
   m_Name: Beetle_0 (2)
   m_TagString: Trap
@@ -14533,7 +14303,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14549,27 +14319,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.3333333, y: 3.1333334}
   m_EdgeRadius: 0
---- !u!50 &1706316014
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1706316015
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706316010}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1706808727
 GameObject:
   m_ObjectHideFlags: 0
@@ -14930,8 +14691,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1719822333}
   - component: {fileID: 1719822334}
-  - component: {fileID: 1719822336}
   - component: {fileID: 1719822335}
+  - component: {fileID: 1719822337}
   m_Layer: 0
   m_Name: Beetle_0
   m_TagString: Trap
@@ -15016,7 +14777,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15032,27 +14793,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.3333333, y: 3.1333334}
   m_EdgeRadius: 0
---- !u!50 &1719822336
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1719822337
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719822332}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1732470659
 GameObject:
   m_ObjectHideFlags: 0
@@ -15063,8 +14815,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1732470660}
   - component: {fileID: 1732470661}
-  - component: {fileID: 1732470663}
   - component: {fileID: 1732470662}
+  - component: {fileID: 1732470664}
   m_Layer: 0
   m_Name: Muzzleflash3 (7)
   m_TagString: Trap
@@ -15149,7 +14901,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15165,27 +14917,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1732470663
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1732470664
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732470659}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1739720254
 GameObject:
   m_ObjectHideFlags: 0
@@ -15196,8 +14939,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1739720255}
   - component: {fileID: 1739720256}
-  - component: {fileID: 1739720258}
   - component: {fileID: 1739720257}
+  - component: {fileID: 1739720259}
   m_Layer: 0
   m_Name: Muzzleflash3 (17)
   m_TagString: Trap
@@ -15282,7 +15025,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15298,27 +15041,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1739720258
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1739720259
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739720254}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748550003
 GameObject:
   m_ObjectHideFlags: 0
@@ -15329,8 +15063,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1748550004}
   - component: {fileID: 1748550005}
-  - component: {fileID: 1748550007}
   - component: {fileID: 1748550006}
+  - component: {fileID: 1748550008}
   m_Layer: 0
   m_Name: GothicEnemy03_0
   m_TagString: Trap
@@ -15415,7 +15149,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.75}
@@ -15431,27 +15165,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1748550007
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1748550008
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748550003}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1753449339
 GameObject:
   m_ObjectHideFlags: 0
@@ -16012,8 +15737,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1801441069}
   - component: {fileID: 1801441070}
-  - component: {fileID: 1801441072}
   - component: {fileID: 1801441071}
+  - component: {fileID: 1801441073}
   m_Layer: 0
   m_Name: SpikyBall (3)
   m_TagString: Trap
@@ -16098,7 +15823,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16114,27 +15839,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!50 &1801441072
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1801441073
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801441068}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1801490455
 GameObject:
   m_ObjectHideFlags: 0
@@ -16145,8 +15861,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1801490456}
   - component: {fileID: 1801490457}
-  - component: {fileID: 1801490459}
   - component: {fileID: 1801490458}
+  - component: {fileID: 1801490460}
   m_Layer: 0
   m_Name: Muzzleflash3 (20)
   m_TagString: Trap
@@ -16231,7 +15947,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16247,27 +15963,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1801490459
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1801490460
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801490455}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1835514082
 GameObject:
   m_ObjectHideFlags: 0
@@ -16398,8 +16105,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1867224300}
   - component: {fileID: 1867224301}
-  - component: {fileID: 1867224303}
   - component: {fileID: 1867224302}
+  - component: {fileID: 1867224304}
   m_Layer: 0
   m_Name: Beetle_0 (1)
   m_TagString: Trap
@@ -16484,7 +16191,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16500,27 +16207,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.3333333, y: 3.1333334}
   m_EdgeRadius: 0
---- !u!50 &1867224303
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1867224304
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867224299}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1872312584
 GameObject:
   m_ObjectHideFlags: 0
@@ -16531,8 +16229,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1872312585}
   - component: {fileID: 1872312586}
-  - component: {fileID: 1872312588}
   - component: {fileID: 1872312587}
+  - component: {fileID: 1872312589}
   m_Layer: 0
   m_Name: Muzzleflash3
   m_TagString: Trap
@@ -16617,7 +16315,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16633,27 +16331,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1872312588
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1872312589
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872312584}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913182026
 GameObject:
   m_ObjectHideFlags: 0
@@ -16664,8 +16353,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1913182027}
   - component: {fileID: 1913182028}
-  - component: {fileID: 1913182030}
   - component: {fileID: 1913182029}
+  - component: {fileID: 1913182031}
   m_Layer: 0
   m_Name: Muzzleflash3 (3)
   m_TagString: Trap
@@ -16750,7 +16439,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16766,27 +16455,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1913182030
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1913182031
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913182026}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1962334882
 GameObject:
   m_ObjectHideFlags: 0
@@ -16797,8 +16477,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1962334883}
   - component: {fileID: 1962334884}
-  - component: {fileID: 1962334886}
   - component: {fileID: 1962334885}
+  - component: {fileID: 1962334887}
   m_Layer: 0
   m_Name: Muzzleflash3 (9)
   m_TagString: Trap
@@ -16883,7 +16563,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -16899,27 +16579,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1962334886
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1962334887
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962334882}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1970415360
 GameObject:
   m_ObjectHideFlags: 0
@@ -16930,8 +16601,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1970415361}
   - component: {fileID: 1970415362}
-  - component: {fileID: 1970415364}
   - component: {fileID: 1970415363}
+  - component: {fileID: 1970415365}
   m_Layer: 0
   m_Name: Muzzleflash3 (24)
   m_TagString: Trap
@@ -17016,7 +16687,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -17032,27 +16703,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &1970415364
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &1970415365
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970415360}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1987389416
 GameObject:
   m_ObjectHideFlags: 0
@@ -17950,8 +17612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2056369667}
   - component: {fileID: 2056369668}
-  - component: {fileID: 2056369670}
   - component: {fileID: 2056369669}
+  - component: {fileID: 2056369671}
   m_Layer: 0
   m_Name: Muzzleflash3 (2)
   m_TagString: Trap
@@ -18036,7 +17698,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18052,27 +17714,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!50 &2056369670
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &2056369671
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056369666}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc86c5f60fefa44a49aecbed07b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2073854940
 GameObject:
   m_ObjectHideFlags: 0
