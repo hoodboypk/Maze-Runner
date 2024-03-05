@@ -22,7 +22,7 @@ public class DoorChanger : MonoBehaviour
     {
         if (other.CompareTag("Wizard"))
         {
-            SceneManager.LoadSceneAsync(2);
+            SceneManager.LoadSceneAsync(3);
         }
     }
 }

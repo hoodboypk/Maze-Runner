@@ -22,7 +22,7 @@ public class LevelChange : MonoBehaviour
     {
         if (other.CompareTag("Wizard"))
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }
